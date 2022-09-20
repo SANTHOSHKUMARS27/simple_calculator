@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple calculator by santhosh</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <h1>Simple Calculator<h1>
+        </header>
+        <div>
+            <table class="center" border="1px">
+                <tr>
+                    <td colspan="4">
+                        <input id="inp" type="text" value=""></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button onclick="send('1')">1</button></td>
+                    <td><button onclick="send('2')">2</button></td>
+                    <td><button onclick="send('3')">3</button></td>
+                    <td><button class="blue" onclick="send('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="send('4')">4</button></td>
+                    <td><button onclick="send('5')">5</button></td>
+                    <td><button onclick="send('6')">6</button></td>
+                    <td><button class="blue" onclick="send('-')">-</button></td>
+                </tr><tr>
+                    <td><button onclick="send('7')">7</button></td>
+                    <td><button onclick="send('8')">8</button></td>
+                    <td><button onclick="send('9')">9</button></td>
+                    <td><button class="blue" onclick="send('x')">x</button></td>
+                </tr><tr>
+                    <td><button class="blue" onclick="send('/')">/</button></td>
+                    <td><button onclick="send('0')">0</button></td>
+                    <td><button class="red" onclick="send('ac')">AC</button></td>
+                    <td><button class="green" onclick="send('=')">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="msg" id="bottom"><p>&#9400;designed by Sandy</p></div>
+        <script src="script.js" charset="utf-8"></script>  
+    </body>
+</html>

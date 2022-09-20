@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+}
+h1{
+    color: #09173d;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+div{
+    align-content: auto;
+    text-align: right;
+}
+
+body{
+    background-color: #09173d;
+}
+
+input{
+    background-color: cornsilk;
+    font-family: 'Asap Condensed', sans-serif;
+    height:50px;
+    width:275px;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 20px;
+}
+table{
+    border-collapse: collapse;
+    border-color: white;
+    border-width: 2px;
+}
+td{
+    border-color: white;
+    border-width: 5px;
+}
+button{
+    height: 50px;
+    width: 65px;
+    background-color:cornsilk;
+    font-size: x-large;
+    font-family: 'Asap Condensed', sans-serif;  
+    transition: all 0.5s ease; 
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+.msg{
+    color: cornsilk;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: large;
+    margin-bottom: auto;
+}
+.center {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.green{
+    background-color: greenyellow;
+}
+.red{
+    background-color: crimson;
+}
+.blue{
+    background-color: cornflowerblue;
+}
